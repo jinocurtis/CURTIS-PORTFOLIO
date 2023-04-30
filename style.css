@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "DM Serif Display", serif;
+  }
+  
+  /*-----------------header--------------------- */
+  header {
+    background-color: rgb(19, 16, 87);
+    height: 100vh;
+  }
+  
+  .logo {
+    color: purple;
+    font-size: 50px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 2%;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+  li a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  li a:hover {
+    color: purple
+  }
+  
+  .head-container {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .head-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+    text-align: center;
+    height: 80vh;
+  }
+  
+  .head-para {
+    font-size: 20px;
+  }
+  h1 {
+    color: white;
+    font-size: 70px;
+  }
+  p {
+    color: white;
+  }
+  
+  .head-btn {
+    width: 15%;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font: bold;
+  }
+  
+  .head-btn:hover {
+    background-color: purple;
+    color: white;
+  }
+  
+  /* -------------------- about-me-section ---------------------------*/
+  
+  .about-me {
+    height: 100vh;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+    text-decoration: underline;
+  }
+  .about-me-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    /* text-align: center; */
+  }
+  
+  .about-text {
+    width: 50%;
+  }
+  
+  .about-para {
+    color: purple;
+    font-size: 20px;
+  }
+  
+  .img-portfolio {
+    width: 40%;
+  }
+  
+  /* -------------------- skills ---------------------------*/
+  .stacks {
+    background-color: rgb(19, 16, 84);
+    height: 100vh;
+  }
+  
+  .skill-head {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+    text-decoration: underline;
+    color: purple;
+    padding-top: 5%;
+  }
+  
+  .skill-container {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  
+  .skill-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .skill-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  
+  .skill-para {
+    font-size: 50px;
+  }
+  
+  .skill-dash {
+    width: 20%;
+    color: white;
+    border: 1px white solid;
+  }
+  
+  .img-skill {
+    border-radius: 20%;
+    width: 10%;
+  }
+  
+  .social-icons {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+  }
+  
+  .icons {
+    cursor: pointer;
+  }
+  /* -------------------- contact ---------------------------*/
+  .contact {
+    height: 100vh;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+  }
+  
+  .get-in-touch-head {
+    font-size: 50px;
+    width: 50%;
+  }
+  
+  .get-in-touch-para {
+    width: 50%;
+  }
+  .form-container {
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+    background-color:  rgb(19, 16, 84);
+    margin-top: 5%;
+  }
+  
+  .contact-p {
+    color: purple;
+    margin-top: 3%;
+  }
+  
+  form {
+    padding: 4%;
+  }
+  
+  .form-t {
+    color: white;
+  }
+  .form-control {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-control input {
+    width: 100%;
+    height: 30px;
+    border: none;
+  }
+  
+  .form-message {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-message input {
+    width: 100%;
+    height: 100px;
+    border: none;
+  }
+  
+  .form-btn {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font: bold;
+    margin-top: 5%;
+  }
+  
+  .form-btn:hover {
+    background-color: purple;
+    color: white;
+  }
+  
+  footer {
+    background-color: rgb(19, 16, 84);
+    height: 20vh;
+    margin-top: 10%;
+  }
+  
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+  
+  .footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 4%;
+  }
+  
+  .contact-header {
+    color: yellow;
+  }
