@@ -9,12 +9,18 @@
   
   /*-----------------header--------------------- */
   header {
-    background-color: rgb(19, 16, 87);
-    height: 100vh;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    /* background-image: url("images.jpeg"); */
+    height: auto;
   }
   
   .logo {
-    color: purple;
+    background-image: url("LOGO.png");
+    color: white;
     font-size: 50px;
   }
   nav {
@@ -23,7 +29,7 @@
     justify-content: space-between;
     width: 100%;
     max-width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
     padding-top: 2%;
   }
   
@@ -38,9 +44,13 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
+    transition: all .5s ease;
   }
   li a:hover {
-    color: purple
+    background-color: white;
+    color: purple;
+    box-shadow: 0 0 10px white;
+
   }
   
   .head-container {
@@ -53,7 +63,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3%;
+    gap: 4%;
     text-align: center;
     height: 80vh;
   }
@@ -75,30 +85,37 @@
     padding: 10px;
     align-items: center;
     border-radius: 10px;
-    border: none;
+    border: 1px solid white;
     cursor: pointer;
     font-size: 20px;
     font: bold;
   }
   
   .head-btn:hover {
+    cursor: pointer;
     background-color: purple;
     color: white;
+    box-shadow: 0 0 10px white;
+    font-weight: bold;
   }
   
   /* -------------------- about-me-section ---------------------------*/
   
   .about-me {
-    height: 100vh;
-    width: 100%;
-    max-width: 80%;
-    margin: 0 auto;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    color: white;
+    /* background-image: url(""); */
   }
   h2 {
     text-align: center;
     font-size: 50px;
-    margin-top: 5%;
-    text-decoration: underline;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-decoration: underline; 
   }
   .about-me-section {
     display: flex;
@@ -113,107 +130,98 @@
   }
   
   .about-para {
-    color: purple;
+    color: white;
     font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 1100px;
+    right: 600px;
+    width: 50%;
+    letter-spacing: 3px;
+    font-size: 25px;
   }
   
   .img-portfolio {
-    width: 40%;
+  align-self: center;
+    width: 30%;
   }
   
-  /* -------------------- skills ---------------------------*/
+  /* -------------------- Portfolio ---------------------------*/
   .stacks {
-    background-color: rgb(19, 16, 84);
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
     height: 100vh;
   }
   
-  .skill-head {
+  .portfolio-head {
     text-align: center;
     font-size: 50px;
     margin-top: 5%;
     text-decoration: underline;
-    color: purple;
+    color: rgba(244, 230, 230, 0.895);
     padding-top: 5%;
   }
-  
-  .skill-container {
-    width: 100%;
-    max-width: 80%;
-    margin: 0 auto;
-    margin-top: 10%;
-  }
-  
-  .skill-one {
+   .gallery{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
   }
-  .skill-two {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 5%;
-  }
-  
-  .skill-para {
-    font-size: 50px;
-  }
-  
-  .skill-dash {
-    width: 20%;
-    color: white;
-    border: 1px white solid;
-  }
-  
-  .img-skill {
-    border-radius: 20%;
-    width: 10%;
-  }
-  
-  .social-icons {
-    margin-top: 5%;
-    display: flex;
-    align-items: center;
-    gap: 4%;
-  }
-  
-  .icons {
-    cursor: pointer;
+  .gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
   }
   /* -------------------- contact ---------------------------*/
   .contact {
-    height: 100vh;
-    width: 100%;
-    max-width: 80%;
-    margin: 0 auto;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    background-position: center;
+    background-size: cover;
+    height: auto;
   }
   
   .contact-container {
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    gap:2rem;
     margin-top: 3%;
+    height: 200px;
   }
   
   .get-in-touch-head {
-    font-size: 50px;
-    width: 50%;
+    font-size: 30px;
+    /* width: 50%; */
   }
   
   .get-in-touch-para {
-    width: 50%;
+    width: 100%;
   }
+  
+  /* Form section */
   .form-container {
     width: 100%;
     max-width: 50%;
     margin: 0 auto;
-    background-color:  rgb(19, 16, 84);
+    background-color: rgb(19, 16, 84);
     margin-top: 5%;
   }
   
   .contact-p {
-    color: purple;
-    margin-top: 3%;
+    /* color: purple; */
+    /* margin-top: 3%; */
+    text-align: center;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    margin-top:2%;
   }
   
   form {
@@ -286,3 +294,4 @@
   .contact-header {
     color: yellow;
   }
+  
