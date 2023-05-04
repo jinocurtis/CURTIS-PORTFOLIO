@@ -202,7 +202,6 @@ width: 90vw;
   
   .get-in-touch-head {
     font-size: 30px;
-    /* width: 50%; */
   }
   
   .get-in-touch-para {
@@ -212,7 +211,6 @@ width: 90vw;
   /* Form section */
   .form-container {
     width: 100%;
-    /* max-width: 50%; */
     margin: 0 auto;
     background-color: rgb(19, 16, 84);
     margin-top: 5%;
@@ -303,13 +301,11 @@ width: 90vw;
   }
 
   @media screen and (max-width:600px){
-    /* body{
-     background-color: black;
-    } 
-    header {
-     color: yellow;
-     font-size: 40px;
-    } */
+    body{
+    max-width: 100%;
+    padding: 10px;
+    }
+   
     header{
       margin: 0;
       padding: 0;
@@ -386,18 +382,20 @@ width: 90vw;
       }
       .stacks .box .dream img{
         width: 300px;
+        height: auto;
+        padding: 10px;
       }
        .contact-container {
         flex-direction: column;
         gap:2rem;
-        margin-top: 3%;
+        margin-top: 5%;
       }
       #contact{
         font-size: 30px;
         color: white;
       }
       .get-in-touch-para {
-        width: 75%;
+        width: 100%;
       }
       .social-icons {
         padding-top: 20px;
@@ -407,8 +405,9 @@ width: 90vw;
 
       /* Form section */
       .form-container {
-        width: 95%;
+        width: 100%;
         border-radius: 10px;
+        margin-top: 15%;
       }
       
       .contact-p {
